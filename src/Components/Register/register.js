@@ -96,7 +96,7 @@ const Login = () => {
 
                             <div>
                                 {/* Email input */}
-                                <p>Email</p>
+                                <p>Username</p>
                                 <input type="text" placeholder="Enter Your Username" name="username" value={user.username} onChange={handleChange} />
                             </div>
                             <div>
@@ -116,7 +116,7 @@ const Login = () => {
                             </div>
                             <div>
 
-                                <p>Year Of pass</p>
+                                <p>Year Of passing</p>
                                 <input type="text" placeholder="Enter Your Year Of Passing" name="yearofpass" value={user.yearofpass} onChange={handleChange} />
                             </div>
 
@@ -124,8 +124,7 @@ const Login = () => {
                                 <p>Password</p>
                                 <input type="password" placeholder="Enter Your Password" name="password" value={user.password} onChange={handleChange} />
                             </div>
-                            {/* Forgot password link */}
-                            <h6>Forgot password?</h6>
+
                         </div>
                         {/* Action buttons */}
                         <div className={styles.action_button}>
