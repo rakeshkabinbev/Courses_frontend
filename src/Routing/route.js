@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from '../Components/Header'
 
@@ -22,7 +22,7 @@ const Router = () => {
     return (
 
         <BrowserRouter >
-        <ScrollToTop/>
+            <ScrollToTop />
             <div className='h-20'>
 
                 <Navbar />

@@ -1,3 +1,4 @@
+import React from 'react';
 import './Pageheader.css';
 import Commoncard from './Commoncard';
 import Main from '../Main/Main';

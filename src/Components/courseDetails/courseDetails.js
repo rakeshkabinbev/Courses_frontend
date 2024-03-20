@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./courseDetails.css";
 import ReactPlayer from "react-player";
 import ChatBot from "../chatbot/chatbot";
