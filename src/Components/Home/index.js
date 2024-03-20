@@ -1,3 +1,4 @@
+import React from "react";
 import Certificate from "../Certificate/Certificate";
 import Companies from "../Companies";
 import Courses_Home from "../Courses_Home";

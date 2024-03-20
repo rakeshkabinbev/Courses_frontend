@@ -1,6 +1,7 @@
+import React from 'react';
 import './ShopingCart.css';
 
-function ShopingCart(){
+function ShopingCart() {
     return (
         <div className='SC-container font-pop'>
             <div className=' w-[100%] h-[20vh] flex flex-row items-center cartbg px-[4%]'>
@@ -59,7 +60,7 @@ function ShopingCart(){
                             <div className='flex justify-end flex-nowrap'>
                                 <p className='font-mons text-[1vw]  mt-[0.6vw] text-black font-semibold 2xl:text-[16px]'>Move To Wishlist</p>
                             </div>
-                            <div><hr className='mt-[0.9vw] border-y-1 border-[#EAEAEA] '/></div>
+                            <div><hr className='mt-[0.9vw] border-y-1 border-[#EAEAEA] ' /></div>
                             <div className='flex justify-between mt-[0.8vw] flex-wrap'>
                                 <div>
                                     <div className='flex'>
@@ -78,18 +79,18 @@ function ShopingCart(){
                     </div>
                 </div>
                 <div className='w-[20%] h-max flex flex-col justify-around space-y-4 font-pop'>
-                        <div>
-                            <p className='font-outfit font-semibold text-[2vw] 2xl:text-[24px]'>Total :</p>
-                        </div>
-                        <div >
-                            <p className='font-Inter font-semibold text-[1.7vw] 2xl:text-[20px]'>₹4999</p>
-                        </div>
-                        <div>
-                            <p className='font-mons text-[1vw] text-[#1DBF73] font-semibold 2xl:text-[16px]'>Including all the taxes</p>
-                        </div>
-                        <div>
-                            <button className='mt-[1.6vw] font-[jost] text-[1.7vw] px-[4vw] py-[0.5vw] bg-[#1DBF73] text-[#fff] border-none rounded-full 2xl:text-[24px]' type="">CHECKOUT</button>
-                        </div>
+                    <div>
+                        <p className='font-outfit font-semibold text-[2vw] 2xl:text-[24px]'>Total :</p>
+                    </div>
+                    <div >
+                        <p className='font-Inter font-semibold text-[1.7vw] 2xl:text-[20px]'>₹4999</p>
+                    </div>
+                    <div>
+                        <p className='font-mons text-[1vw] text-[#1DBF73] font-semibold 2xl:text-[16px]'>Including all the taxes</p>
+                    </div>
+                    <div>
+                        <button className='mt-[1.6vw] font-[jost] text-[1.7vw] px-[4vw] py-[0.5vw] bg-[#1DBF73] text-[#fff] border-none rounded-full 2xl:text-[24px]' type="">CHECKOUT</button>
+                    </div>
                 </div>
             </div>
         </div>

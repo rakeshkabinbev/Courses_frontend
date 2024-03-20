@@ -1,10 +1,11 @@
-export default function Certificate(){
+import React from "react";
+export default function Certificate() {
     return (
         <div className="px-[5%] mt-8 flex space-y-8 justify-between">
             <div className="flex flex-col w-[73%] justify-between ">
                 <div className="flex flex-row bg-[#E2FFF1] p-4 mt-2 w-full rounded-2xl justify-between shadow-2xl shadow-[#D9D9D9]">
                     <div className="w-[28%] rounded-2xl">
-                        <img className="w-full h-full" src="../img/MCimg1.png"/>
+                        <img className="w-full h-full" src="../img/MCimg1.png" />
                     </div>
                     <div className="w-[69%] flex flex-col justify-between">
                         <div className="space-y-2">
@@ -12,11 +13,11 @@ export default function Certificate(){
                             <p className="font-pop text-[#555555] text-[13px]">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
                             <div className="flex space-x-36 ">
                                 <div className="flex space-x-2 items-center">
-                                    <img className="w-[16px] h-[16px]" src="../Icons/RCDesign.svg"/>
+                                    <img className="w-[16px] h-[16px]" src="../Icons/RCDesign.svg" />
                                     <p className="font-pop text-[11px] font-medium text-[#555555]">Design</p>
                                 </div>
                                 <div className="flex space-x-2 items-center">
-                                    <img className="w-[16px] h-[16px] text-[#555555]" src="../Icons/RCClock.svg"/>
+                                    <img className="w-[16px] h-[16px] text-[#555555]" src="../Icons/RCClock.svg" />
                                     <p className="font-pop text-[11px] font-medium text-[#555555]">3 Month</p>
                                 </div>
                             </div>
@@ -29,7 +30,7 @@ export default function Certificate(){
                 </div>
                 <div className="flex flex-row bg-[#E2FFF1] p-4 mt-2 w-full rounded-2xl justify-between shadow-2xl shadow-[#D9D9D9]">
                     <div className="w-[28%] rounded-2xl">
-                        <img className="w-full h-full" src="../img/MCimg1.png"/>
+                        <img className="w-full h-full" src="../img/MCimg1.png" />
                     </div>
                     <div className="w-[69%] flex flex-col justify-between">
                         <div className="space-y-2">
@@ -37,11 +38,11 @@ export default function Certificate(){
                             <p className="font-pop text-[#555555] text-[13px]">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
                             <div className="flex space-x-36 ">
                                 <div className="flex space-x-2 items-center">
-                                    <img className="w-[16px] h-[16px]" src="../Icons/RCDesign.svg"/>
+                                    <img className="w-[16px] h-[16px]" src="../Icons/RCDesign.svg" />
                                     <p className="font-pop text-[11px] font-medium text-[#555555]">Design</p>
                                 </div>
                                 <div className="flex space-x-2 items-center">
-                                    <img className="w-[16px] h-[16px] text-[#555555]" src="../Icons/RCClock.svg"/>
+                                    <img className="w-[16px] h-[16px] text-[#555555]" src="../Icons/RCClock.svg" />
                                     <p className="font-pop text-[11px] font-medium text-[#555555]">3 Month</p>
                                 </div>
                             </div>

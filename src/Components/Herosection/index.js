@@ -1,3 +1,4 @@
+import React from 'react'
 import ReactPlayer from 'react-player'
 import './hero.css'
 import { ReactComponent as Cal } from '../../Assets/Icons/cal.svg'
