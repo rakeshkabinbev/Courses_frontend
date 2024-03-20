@@ -1,15 +1,15 @@
-/* .page-header {
-  background-image: url("../../../public/img/Detailcoursesheaderbgimg.png");
+.page-header {
+  background-image: url("/public/img/Detailcoursesheaderbgimg.png");
   background-size: cover;
   height: 325px;
-} */
-/* 
+}
+
 .CCDetails-Header-main {
   display: flex;
-  background-image: url("../../../public/img/Detailcoursesheaderbgimg.png");
+  background-image: url("/public/img/Detailcoursesheaderbgimg.png");
   background-size: cover;
   height: 325px;
-} */
+}
 
 .CCDetails-Header-content-leftqw {
   margin-top: 32px;
